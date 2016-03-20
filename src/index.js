@@ -1,5 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AdditionComponent from './AdditionComponent';
+import CardComponent from './CardComponent';
+import Main from './Main';
+import Form from './Form';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+var $ = require('jquery');
+window.jQuery = $;
+window.$ = $;
+
+ReactDOM.render(<Main />, document.getElementById('root'));
