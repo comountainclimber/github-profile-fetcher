@@ -7,7 +7,7 @@ export default class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      logins: []
+      logins: ['comountainclimber']
     };
     this.addCard = this.addCard.bind(this)
   }
